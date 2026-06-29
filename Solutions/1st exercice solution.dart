@@ -9,7 +9,7 @@ void main() {
   // TODO 3: discount is 10% — 0.1 is not an int
   double discount = 0.1;
 
-  // TODO 4: The formula ignores discount. Fix it:
+  // TODO 4: The formula ignores discount. Fix it--:
   // total = price * quantity * (1 - discount)
   double total = price * quantity * (1 - discount);
 
