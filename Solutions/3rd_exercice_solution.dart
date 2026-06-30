@@ -10,10 +10,10 @@ void main() {
   // TODO 2: Calculate subtotal and total using expression interpolation
   double subtotal = qty * price;
   double total = subtotal * (1 + tax);
-  print('Subtotal: ${qty * price}');
-  print('Total with tax: ${subtotal * (1 + tax)}');
+  print('Subtotal: \$$subtotal');
+  print('Total with tax: \$$total');
 
   // TODO 3: Combine everything into one line with proper interpolation
   // Expected: "Coffee x 3 = $14.97 (total with tax: $16.17)"
-  print('$item x $qty =  ${qty * price} (total with tax: ${(subtotal * (1 + tax)).toStringAsFixed(2)})');
+  print('$item x $qty = \$$subtotal (total with tax: \$${total.toStringAsFixed(2)})');
 }
